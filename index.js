@@ -1,14 +1,17 @@
-functoin setup() {
+let drawMaster = new drawMaster;
+function setup() {
   createCanvas(400, 400);
 }
 let tree= [];
 function draw() {
   background(220);
+
 }
 function drawMaster(){
+  this.update = function (){
   tree.push = new Square();
   tree.push = new Triangle();
-
+}
 }
 function Square (startX, startY,radius){
 
